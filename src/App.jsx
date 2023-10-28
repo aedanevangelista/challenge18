@@ -5,27 +5,33 @@ function App() {
   return (
     <>
       <div className="flex justify-center">
-        <main className="w-[1440px] flex flex-col justify-center items-center font-Franklin">
+        <main className=" lg:w-[1440px] flex flex-col justify-center items-center font-Franklin">
           <div className="flex flex-col justify-center items-center">
             <img src={pingLogo} alt="logo" className="my-10" />
-            <h1 className="text-[48px] text-gray-400 my-1">
+            <h1 className="text-[24px] lg:text-[48px] text-gray-400 my-1">
               We are launching{" "}
               <span className="font-[700] text-black">soon!</span>
             </h1>
-            <h2 className="text-xl mb-10">Subscribe and get notified</h2>
+            <h2 className="text-sm lg:text-xl mb-10">
+              Subscribe and get notified
+            </h2>
 
-            <form action="" className="flex flex-row mb-[5.6rem]">
+            <form action="" className="flex flex-col lg:flex-row mb-[5.6rem]">
               <input
                 type="email"
-                className="w-[26.2rem] rounded-full border border-slate-300 px-8 outline-none placeholder:text-slate-300"
+                className="w-full lg:w-[26.2rem] mb-2 lg:mb-0 rounded-full border border-slate-300 py-4 px-8 outline-none placeholder:text-slate-300"
                 placeholder="Your email address.."
               />
-              <button className=" font-[600] rounded-full bg-[#507cf4] text-white py-4 px-[3.9rem] ml-4 shadow-md shadow-[#507cf4] hover:scale-105 duration-300">
+              <button className=" font-[600] rounded-full bg-[#507cf4] text-white py-4 lg:py-0 px-[3.9rem] lg:ml-4 shadow-md shadow-[#507cf4] hover:scale-105 duration-300">
                 Notify Me
               </button>
             </form>
 
-            <img src={illustration} alt="box" className="w-[40rem] mb-[4rem]" />
+            <img
+              src={illustration}
+              alt="box"
+              className="w-[90%] lg:w-[40rem] mb-[4rem]"
+            />
 
             <div className="flex flex-row mb-6">
               <svg
