@@ -13,7 +13,7 @@ function App() {
               <span className="font-[700] text-black">soon!</span>
             </h1>
             <h2 className="text-sm lg:text-xl mb-10">
-              Subscribe and get notified
+              Subscribe and get notified.
             </h2>
 
             <form action="" className="flex flex-col lg:flex-row mb-[5.6rem]">
